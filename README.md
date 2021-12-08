@@ -32,6 +32,6 @@ null + 1
 undefined + 1
 ```
 
-3.Write logic that implements parseInt
+3.Write logic that implements [parseInt()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
 
-4.Write logic that implements parseFloat
+4.Write logic that implements [parseFloat()](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
