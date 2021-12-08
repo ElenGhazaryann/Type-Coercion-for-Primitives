@@ -24,3 +24,11 @@ isNaN(" "); // =false
 Infinity / 6; // infinity, infinity is positive num, + / + is + number
 Infinity / -256; // -infinity, + / - is - number
 Infinity / Infinity;
+
+/*
+0 / 0  // NaN  Բաժանումից ստացվում է, որ զրոն զգտում բայց չի հասնում զրոյին
++true  // 1 true as a number is 1
++false  // 0, false as a number is 0
++null   // 0, null as a number is 0
++undefined // undefined and NaN as a number are NaN
+*/
