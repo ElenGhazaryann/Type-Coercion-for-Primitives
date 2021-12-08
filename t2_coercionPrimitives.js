@@ -28,3 +28,9 @@ true + false; // 1
 
 7 / 0; // infinity
 // Բաժաման արդյունքւոմ ձգտում է զրոյի, բայց չի հասնում:
+
+" -9 " + 5; // "-95"
+// string + number == string
+
+" -9 " - 5; // "-14"
+// string - number = numer
