@@ -37,3 +37,6 @@ true + false; // 1
 
 null + 1; // 1
 // Number(null)== 0, 0+1 = 1
+
+undefined + 1; //NaN
+// Number(undefined) == Nan, NaN + 1 = NaN
