@@ -4,3 +4,5 @@ Number(" 12"); // =12 // removes spaces from  start and from end, and returns nu
 
 isNaN(" "); // =false
 // at first converts " " to number,  " " =0 , and 0 isn't NaN
+
++""; // converts  "" to number, " " is 0
