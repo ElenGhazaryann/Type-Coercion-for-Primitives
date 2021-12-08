@@ -25,3 +25,6 @@ true + false; // 1
 
 "4px" - 2; // NaN
 // - is not determined for string, and "4px" as a number is NaN
+
+7 / 0; // infinity
+// Բաժաման արդյունքւոմ ձգտում է զրոյի, բայց չի հասնում:
