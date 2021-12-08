@@ -12,3 +12,7 @@ true + false; // 1
 
 "2" * "3"; //6
 // * is not determined for string
+
+4 + 5 + "px"; //  "9px"
+// 4 + 5 = 9,
+// 9 + "px" = "9px"
