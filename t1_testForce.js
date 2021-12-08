@@ -20,3 +20,7 @@ isNaN(" "); // =false
 1 / "2"; // 0.5, division is not defined for strings
 1 / 0; // Infinity  Բաժանման արդյունքում ձախից ձգտում է զրոյին, բայց չի հասցնում,
 1 / -0; // -Infinity,  Բաժանման արդյունքում աջից ձգտում է զրոյին, բայց չի հասցնում,
+
+Infinity / 6; // infinity, infinity is positive num, + / + is + number
+Infinity / -256; // -infinity, + / - is - number
+Infinity / Infinity;
