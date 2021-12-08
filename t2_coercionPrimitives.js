@@ -22,3 +22,6 @@ true + false; // 1
 
 "4" - 2; // 2
 // - is not determined for string
+
+"4px" - 2; // NaN
+// - is not determined for string, and "4px" as a number is NaN
