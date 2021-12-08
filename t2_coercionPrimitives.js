@@ -16,3 +16,9 @@ true + false; // 1
 4 + 5 + "px"; //  "9px"
 // 4 + 5 = 9,
 // 9 + "px" = "9px"
+
+"$" + 4 + 5; //   "$45"
+// concats as string
+
+"4" - 2; // 2
+// - is not determined for string
