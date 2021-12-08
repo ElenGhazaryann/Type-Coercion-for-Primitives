@@ -6,3 +6,9 @@
 
 true + false; // 1
 // true is 1,  false is 0 as a number
+
+6 / "3"; // 2
+// division is not determined for string, that's why js converts string to number
+
+"2" * "3"; //6
+// * is not determined for string
