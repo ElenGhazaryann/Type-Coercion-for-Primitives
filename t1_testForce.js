@@ -32,3 +32,12 @@ Infinity / Infinity;
 +null   // 0, null as a number is 0
 +undefined // undefined and NaN as a number are NaN
 */
+
+parseInt(".2");
+console.log(parseInt("077a")); // 77
+parseInt("0x77a"); // is hex. number
+parseInt("I’m the best value - said Infinity."); // NaN, i'm is not a number
+parseFloat("I’m the best value - said Infinity."); // NaN i'm is not a number
+parseInt("Infinity is the best value!"); // NaN, there is not a number
+parseFloat("Infinity is the best value!"); // NaN i'm is not a number
+parseFloat("12.78ff"); // 12.78, converts 12.78 into number, meet strign f, and breaks
