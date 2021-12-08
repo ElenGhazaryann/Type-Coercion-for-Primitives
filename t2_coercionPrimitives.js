@@ -34,3 +34,6 @@ true + false; // 1
 
 " -9 " - 5; // "-14"
 // string - number = numer
+
+null + 1; // 1
+// Number(null)== 0, 0+1 = 1
